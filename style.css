@@ -12,7 +12,7 @@
 
 .calc_screen {
   height: 125px;
-  padding: 10px;
+  padding: 10px 0px;
   display: grid;
   justify-items: end;
   align-items: end;
@@ -27,11 +27,11 @@
 .buttons {
   display: grid;
   grid-template-areas:
-    "ac plus_minus percent division"
-    "seven eight nine multi"
-    "four five six minus"
-    "one two three plus"
-    "zero zero dot equal";
+    'ac plus_minus percent power'
+    'seven eight nine multi'
+    'four five six division'
+    'one two three plus'
+    'zero dot equal minus';
   grid-gap: 7px;
   justify-items: center;
 }
